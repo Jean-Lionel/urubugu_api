@@ -1,0 +1,6 @@
+*.pyc
+*.pyd
+*.map
+.env
+
+**__pycache__
