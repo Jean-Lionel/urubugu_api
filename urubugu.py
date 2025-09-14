@@ -54,8 +54,8 @@ class Urubugu:
         except MoveException:
             self.positions[position] = inege
 
-    def ungururiza(self, umwansi, positions):
-        
+    # def ungururiza(self, umwansi, positions):
+
     
     def __str__(self):
         positions = [str(x) for x in self.positions]

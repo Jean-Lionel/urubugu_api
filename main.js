@@ -1,9 +1,10 @@
-var socket = new WebSocket(`http://127.0.0.1:8765/`);
+var socket = new WebSocket(`http://10.42.0.253:8765/`);
 socket.onopen = function(e) {
     console.log("[open] Connection established");
 };
 socket.onmessage = function(event) {
     console.log(event)
+
 };
 socket.onclose = function(event) {
     if (event.wasClean) {
